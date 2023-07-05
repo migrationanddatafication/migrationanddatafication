@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #ee0909;
-  --bs-link-hover-color: #be0707;
+  --bs-link-color: #6610f2;
+  --bs-link-hover-color: #530fc0;
   --bs-code-color: #ee0909;
   --bs-highlight-bg: #fff3cd;
 }
@@ -330,11 +330,18 @@ thead,
 tbody,
 tfoot,
 tr,
-td,
+td {
+  padding-right: 30px;
+},
 th {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
+  border-bottom: 1px solid black;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 label {
